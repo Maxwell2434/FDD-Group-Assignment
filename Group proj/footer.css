@@ -1,0 +1,54 @@
+.footer{
+	background-color:#181818;
+    display: flex;
+    justify-content: center;	
+}
+
+#footer-mid{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.footer-links{
+	color:#7F7F7F;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a{
+    margin: 5px;
+}
+
+.socialmedia{
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    justify-content:right;
+    align-items:start;
+}
+
+.socialmedia img{
+    height: 26px;
+}
+
+.socialmedia a{
+    margin-left: 4px;
+    height: 26px;
+}
+
+.socialmedia a:hover{
+    cursor: pointer;
+}
+.logo-bottom{
+    font-family:'Agency FB';
+    font-weight:bold; 
+    font-style:italic;
+    font-size:18px;
+    margin: 20px;
+    display: flex;
+    align-items: end;
+    width: 20%;
+}
+

@@ -1,0 +1,115 @@
+html{
+    background-color: #0f0f0f;
+    color: white;
+	font-family:"Bahnschrift";
+    
+    height: 100%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.green{
+    color:#4D7E6A;
+}
+
+.yellow{
+    color:#D2A944;
+}
+
+.blue{
+    color:#55ABC9;
+}
+
+nav {
+    background-color: #181818;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.logo {
+    font-family:'Agency FB';
+    font-weight:bold; 
+    font-style:italic;
+    font-size:30px;
+	margin-right:auto;
+    margin-left: 3%;
+	padding-left:0px;
+	cursor:pointer;
+    transition: font-size 0.1s;
+}
+
+.logo:hover{
+    font-size: 33px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+
+nav div {
+    margin-right: 5%;
+}
+
+
+
+nav a{
+    color:#55abc9;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+
+nav img{
+    margin-left: 4px;
+}
+
+nav a{
+    transition: font-size 0.1s;
+}
+
+nav a:hover{
+    font-size: 1.1rem;
+    background-color: #3f3f3f;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+nav img{
+    width: 10px;
+}
+
+
+
+.signup{
+    font-weight:bold;
+    display: inline-block;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #55abc9;
+    color: black;
+    margin-left: 20px;
+    padding: 5px 20px;
+    cursor:pointer;
+	transition: padding 0.1s;
+}
+
+
+.signup:hover{
+	padding:8px 23px;
+    background-color: #55abc9;
+}

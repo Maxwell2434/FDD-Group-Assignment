@@ -1,0 +1,27 @@
+.Container{
+    position: relative;
+    display: flex;
+}
+
+.Container div{
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    transform: translate(0,-50%);
+}
+
+
+.background_Img {
+    width: 100%;
+}
+
+.topTitle{
+    font-size: 24px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.botTitle{
+    font-size: 16px;
+}
+
